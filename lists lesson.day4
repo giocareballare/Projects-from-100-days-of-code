@@ -1,0 +1,9 @@
+states=["Wyoming", "Wisconsin", "Washington"]
+print(states[2])
+states[0]= "Virginia"
+print(states)
+states.append("Florida")
+print(states)
+states.extend(["New York", "Delaware"])
+print(states)
+
