@@ -1,0 +1,8 @@
+#Write your code below this line 👇
+import random
+coinresult= random.randint(0,1)
+if coinresult== 0:
+  print("Heads")
+else:
+  print("Tails")
+#Hint: Remember
