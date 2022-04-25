@@ -1,0 +1,28 @@
+print('Welcome to "ESCAPE THE SHIP!"')
+print("You must escape the ship before the unforgving void takes your life in any number of ways!")
+choice1=input("You wake up with alarms blairing, you head out into the hallway and there is a fork. Do you go left, right, or go back to your room?\n")
+if choice1 == "left": 
+  choice2 = input("You come up to a door, open it, then step inside of the cockpit. A giant tentacle-riddled alien starts to creep toward you. Do you fight it, or try to lock it out?\n")
+  if choice2== "fight it":
+    print("You reach for your phazer, but the alien intercepts your arm, twists it with the greatest of ease. He then picks you up and tears you in half. You lose.\n")
+  if choice2== "lock it out":
+    print("You think of anyway to lure the alien out the door and are struck with an idea. You look down and see your not-so-fortunate crewmate in pieces. You'd like to think he would understand what your about to do. You pick up his arm and leg in two hands and throw them out the door you came in from. The alien chases after them and you follow behind it, locking the door. You then take the captain's escape pod to the unkown planet. You hope there aren't more down there. You win.\n")
+elif choice1== "right":
+  choice3= input("You arrive at the engineering bay and see a crewmate desperately trying to fix an escape pod in launch position. Do you help or look for another way?\n ")
+  if choice3== "help": 
+    choice4=input("You run over to your crewmate and offer help. He is relieved to see another soul and accepts your help. You both rewire the launch procedures and the escape pod becomes operational. You both hear a distinct shrieking sound and look over your shoulders. There is a giant tentacle-ridden alien hurdling towards you both. Do you attempt to fight it off, or try to use the escape pod?\n")
+    if choice4== "fight it":
+      print("You look around and see cannisters of high-pressured fire extinguishers. As the alien rushes towards you, you time your phazer shot just right and the alien is covered in a cold-white cloud. The alien screams in agony and your crewmate yells out 'Lets go, while we still can!' You rush towards the escape pod and shut the door behind you. IT launches and you both make your way to the planet below.\n")
+    if choice4== "escape pod": 
+      print("You frantically try to enter the escape pod, but your crewmate grabs a wrench and swings into your bck. You fall to your knees and he hits you again in the stomach, knocking the wind out of you. He looks at you and says 'Sorry, but one of us had to be the distraction.' You gasp for air as you see your comrade get in the escape pod and disappear into space. You hear the shrieking getting closer and regret your trust in humanity...")
+  if choice3== "another way":
+    choice5= input("You look around the engineering bay while your crewmate doesnt seem to notice you. You hear distant shrieking and instintively find a place to hide. You then see your crewmate get torn to pieces by a tenticle-riddled alien. Filled with terror your mind races about what to do next. The alien is right in front of the escape pod, leisurely consuming your former comrade. Do you sitract it, or fight it?")
+    if choice5== 'distract it':
+      print("You look down and see a wrench, you oick it up and throw in the direction away from the escape pod. The alien looks up and darts toward the location. You sprint to the pod and get in. The oxygen is low, but itll do. YOu laucnh to the planet below and escape.")
+    if choice5=="fight it":
+      print("You stand up from your hiding place and let out a war cry. You take out your phazer, sprint towards the alien without letting up on the trigger. Before you know it you are face to face with the alien who seems unimpressed. Using a different tenticle for each limb, it picks you up and rips off your every limb like paper. You lose.")
+elif choice1== "wait":
+  print("You wait back in your room hoping for rescue, when an alert goes off saying there is an airlock breach. That is the last thing you hear before air in your lujngs escapes you and die a quick death on your favorite sheets.")
+    
+  
+  
